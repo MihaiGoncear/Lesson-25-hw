@@ -1,7 +1,6 @@
 fetch('https://api.nasa.gov/planetary/apod?api_key=onuijb7b2ILtD2BxLz3FOz8lYhd1NfHMFMVz4v3C&date=2020-01-22&hd=true')
     .then(response => response.json())
     .then(data => {
-        console.log(data)
             let body = document.body;
             let title = document.createElement('h1');
             title.innerText = data.title;
