@@ -27,10 +27,6 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=onuijb7b2ILtD2BxLz3FOz8lYhd1N
             body.append(imageDiv);
             body.append(paragraph);
             body.append(copyrightDiv);
-
-    
-    // let a = document.getElementById('copyright');
-    // a.innerText = data.copyright
 })
 
 
