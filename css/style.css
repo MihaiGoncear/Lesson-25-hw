@@ -20,8 +20,10 @@ body {
 h1 {
   margin: 5% 0 5% 0;
   text-align: center;
-  background-color: rgba(141, 161, 228, 0.74);
-  color: black; }
+  background-color: rgba(141, 161, 228, 0.884);
+  color: black;
+  position: sticky;
+  top: 0px; }
 
 .image {
   display: flex;
@@ -33,13 +35,13 @@ h1 {
 
 p {
   text-align: justify;
-  background-color: rgba(141, 161, 228, 0.74);
+  background-color: rgba(141, 161, 228, 0.884);
   line-height: 1; }
 
 .copyright {
   display: flex;
   justify-content: center;
-  margin-bottom: 1%; }
+  padding-bottom: 1%; }
   .copyright span {
     color: silver; }
 
