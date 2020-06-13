@@ -5,8 +5,6 @@ export function renderFullYear() {
     let dayInput = document.getElementById('day');
     let fullYear; 
 
-    container.innerHTML = ''
-
     if (yearInput.value.length != 4 || yearInput.value > 2020 ){
        return alert('Year input format is not correct, follow the instructions');
     }
@@ -22,4 +20,5 @@ export function renderFullYear() {
      }
     
     fullYear = `${yearInput.value}-${monthInput.value}-${dayInput.value}`
+    return fullYear;
 }
