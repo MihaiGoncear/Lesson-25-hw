@@ -1,6 +1,7 @@
 import { renderFullYear } from './renderYear.js'
 import { createContent } from './createContent.js'
 
+let container = document.getElementById('container');
 let renderBttn = document.getElementById('render');
 renderBttn.onclick = makeYear;
 

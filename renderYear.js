@@ -1,5 +1,4 @@
 export function renderFullYear() {
-    let container = document.getElementById('container');
     let yearInput = document.getElementById('year');
     let monthInput = document.getElementById('month');
     let dayInput = document.getElementById('day');
