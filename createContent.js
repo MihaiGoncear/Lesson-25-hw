@@ -7,7 +7,7 @@ export function createContent(info) {
 
     if(info.media_type === 'video') {
         let iframe = document.createElement('iframe');
-        iframe.setAttribute('src', data.url);
+        iframe.setAttribute('src', info.url);
         iframe.setAttribute('width', '420');
         iframe.setAttribute('height', '300');
         imageDiv.append(iframe);
