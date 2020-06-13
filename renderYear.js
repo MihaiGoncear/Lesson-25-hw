@@ -5,8 +5,10 @@ export function renderFullYear() {
     let dayInput = document.getElementById('day');
     let fullYear; 
 
-    if (yearInput.value.length != 4 || yearInput.value > 2020 ){
-       return alert('Year input format is not correct, follow the instructions');
+    if (yearInput.value.length != 4 || yearInput.value > 2020){
+        return alert('Year input format is not correct, follow the instructions');
+    } else if (yearInput.value < 1996) {
+        return alert('Year cannot be less than 1996, type another year');
     }
     if (monthInput.value.length < 2){
         return monthInput.value = 0 + monthInput.value
